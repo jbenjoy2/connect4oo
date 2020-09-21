@@ -4,13 +4,26 @@
   <link href="connect4.css" rel="stylesheet">
 </head>
 <body>
+  <form id='player-form'>
+    <label for="p1 name">Player One:</label>
+    <input id ='p1-name' type="text" name="p1 name" placeholder="Player one name">
+    <label for="p1">Player One Color:</label>
+    <input id ='p1-bgc' type="text" name="p1" placeholder="Player one color choice">
+    <label for="p2 name">Player Two:</label>
+    <input id ='p2-name' type="text" name="p2 name" placeholder="Player two name">
+    <label for="p2">Player Two Color:</label>  
+    <input id ='p2-bgc' type="text" name="p2" placeholder="Player two color choice"> 
+    <input type="submit" value="Start New Game">
+  </form>
   
 
-<div id="game">
-  <table id="board"></table>
-</div>
+  <hr>
 
-<script src="connect4.js"></script>
+  <div id="game">
+    <table id="board"></table>
+  </div>
 
+  <script src="connect4.js"></script>
 </body>
 </html>
+
